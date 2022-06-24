@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Poppins', sans-serif;
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-title{
+  text-transform: uppercase;
+  font-weight:bold;
+  padding:10px;
+  
+ }
+.img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #f9fafb;
+  border-radius: .375rem;
+  max-width: 100%;
+  height: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-hint{
+  font-size:12px;
+  color:#8e98a3;
 }
+.reg-form{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:start;
+  flex-direction:column;
+  gap:30px;
+}
+.reg-box{
+  display:flex;
+  gap:30px;
+  flex-wrap: wrap;
+}
+.textform{
+  width:200px;
+}
+.nav-profile{
+ width:120px;
+ border-radius: 50%;
+ display:flex;
+ justify-content: center;
+}
+.std-sid-list{
+  color:#717981;
+  text-decoration: none;
+}
+a.std-sid-list {
+  color:#717981;
+  text-decoration: none;
+}
+.nav{
+  background-color:#fff
+}
+.dashboardlayout{
+  height: 100vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.topnav-container{
+  background-color:aqua;
+}
+th {
+  padding: 10px;
+}
+.border-left-primary {
+  border-left: 0.25rem solid #4e73df;
+  
+}
+.border-left-success {
+  border-left: 0.25rem solid #1cc88a;
+}
+.border-left-info {
+  border-left: 0.25rem solid #36b9cc;
+}
+.border-left-warning{
+  border-left: 0.25rem solid #f6c23e;
+}
+.cardicon{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:space-between
 }
+.monthly {
+  font-size: 1rem;
+  color: #4e73df;
+  font-weight: 700;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.annual{
+  font-size: 1rem;
+  color: #1cc88a;
+  font-weight: 700;
+}
+.task{
+  font-size: 1rem;
+  color: #36b9cc;
+  font-weight: 700;
+}
+.pending{
+  font-size: 1rem;
+  color: #f6c23e;
+  font-weight: 700;
+}
+.card-text{
+  color: #5a5c69;
+  font-weight: 700!important;
+  font-size: 1.25rem;
+}
+.dashboardimg{
+  width: 410px;
 }
